@@ -58,8 +58,8 @@
 
 7. 你能描述一下渐进增强和优雅降级之间的不同吗?  
 	- 如果提到了特性检测，可以加分。  
-	**回答：**
-			- **渐进增强是向上‘兼容’，一开始只构建站点或产品的最核心特性功能，然后不断针对各浏览器追加功能和优化。**
+	**回答：**  
+			- **渐进增强是向上‘兼容’，一开始只构建站点或产品的最核心特性功能，然后不断针对各浏览器追加功能和优化。**  
 			- **优雅降级是向下兼容，一开始就构建站点或产品的完整功能，然后针对各浏览器进行优化。**
 
 
@@ -123,122 +123,123 @@
 	直接使用VIM的retab命令
 
 16. 请写一个简单的幻灯效果页面
-
-- 如果不使用JS来完成，可以加分。  
-**无JS超简洁版：** 
-	<pre>
-			/**HTML**/
-			div.ani
-			/**css**/
-			.ani{
-			  width:480px;
-			  height:320px;
-			  margin:50px auto;
-			  overflow: hidden;
-			  box-shadow:0 0 5px rgba(0,0,0,1);
-			  background-size: cover;
-			  background-position: center;
-			  -webkit-animation-name: "loops";
-			  -webkit-animation-duration: 20s;
-			  -webkit-animation-iteration-count: infinite;
-			}
-			@-webkit-keyframes "loops" {
-				0% {
-					background:url(http://d.hiphotos.baidu.com/image/w%3D400/sign=c01e6adca964034f0fcdc3069fc27980/e824b899a9014c08e5e38ca4087b02087af4f4d3.jpg) no-repeat;				
-				}
-				25% {
-					background:url(http://b.hiphotos.baidu.com/image/w%3D400/sign=edee1572e9f81a4c2632edc9e72b6029/30adcbef76094b364d72bceba1cc7cd98c109dd0.jpg) no-repeat;
-				}
-				50% {
-					background:url(http://b.hiphotos.baidu.com/image/w%3D400/sign=937dace2552c11dfded1be2353266255/d8f9d72a6059252d258e7605369b033b5bb5b912.jpg) no-repeat;
-				}
-				75% {
-					background:url(http://g.hiphotos.baidu.com/image/w%3D400/sign=7d37500b8544ebf86d71653fe9f9d736/0df431adcbef76095d61f0972cdda3cc7cd99e4b.jpg) no-repeat;
-				}
-				100% {
-					background:url(http://c.hiphotos.baidu.com/image/w%3D400/sign=cfb239ceb0fb43161a1f7b7a10a54642/3b87e950352ac65ce2e73f76f9f2b21192138ad1.jpg) no-repeat;
-				}
-			}
-	</pre>
-**无JS更好的版本：**  
-	<PRE>
-			/**HTML**/
-			ul.cb-slideshow>li*6
-			/**CSS**/
-			.cb-slideshow,
-			.cb-slideshow:after{
-				position:fixed;
-				width:100%;
-				height:100%;
-				top:0;
-				left:0;
-				z-index:0;
-			}
-			.cb-slideshow li{
-				position:absolute;
-				width:100%;
-				height:100%;
-				top:0;
-				left:0;
-				color:transparent;
 	
-				background-size:cover;
-				background-position: center;
-				background-repeat: none;
-				opacity:0;
-				z-index:0;
-	
-				-webkit-backface-visibility: hidden;
-				-webkit-animation: loops 36s linear infinite 0s;
-			}
-			.cb-slideshow li:nth-child(1){
-				background-image: url(http://a.hiphotos.baidu.com/image/w%3D2048/sign=bae49cc219d5ad6eaaf963eab5f338db/78310a55b319ebc4dfbad19f8026cffc1f1716f1.jpg);
-			}
-			.cb-slideshow li:nth-child(2){
-				background-image: url(http://e.hiphotos.baidu.com/image/w%3D2048/sign=ccbcc20b249759ee4a5067cb86c34216/5ab5c9ea15ce36d3117f253638f33a87e950b1b9.jpg);
-				-webkit-animation-delay: 6s;
-			}
-			.cb-slideshow li:nth-child(3){
-				background-image: url(http://f.hiphotos.baidu.com/image/w%3D2048/sign=856e8c06eb24b899de3c7e385a3e1c95/730e0cf3d7ca7bcba7106129bc096b63f624a849.jpg);
-				-webkit-animation-delay: 12s;
-			}
-			.cb-slideshow li:nth-child(4){
-				background-image: url(http://e.hiphotos.baidu.com/image/w%3D2048/sign=b13bc3ec83cb39dbc1c06056e42e0824/b64543a98226cffc72e818b4bb014a90f703eaf2.jpg);
-				-webkit-animation-delay: 18s;
-			}
-			.cb-slideshow li:nth-child(5){
-				background-image: url(http://d.hiphotos.baidu.com/image/w%3D2048/sign=8850fe144d4a20a4311e3bc7a46a9922/3b87e950352ac65cdb7ec075f9f2b21193138ab9.jpg);
-				-webkit-animation-delay: 24s;
-			}
-			.cb-slideshow li:nth-child(6){
-				background-image: url(http://c.hiphotos.baidu.com/image/w%3D2048/sign=fe5efd301f950a7b753549c43ee963d9/f31fbe096b63f624d9369f058544ebf81a4ca349.jpg);
-				-webkit-animation-delay: 30s;
-			}
-			
-			@-webkit-keyframes "loops" {
-				0% {
-					opacity: 0;
-					/*transform:translateY(2000px);
-					animation-timing-function:ease-in;*/				
+	- 如果不使用JS来完成，可以加分。  
+	**无JS超简洁版：** 
+		<pre>
+				/**HTML**/
+				div.ani
+				/**css**/
+				.ani{
+				  width:480px;
+				  height:320px;
+				  margin:50px auto;
+				  overflow: hidden;
+				  box-shadow:0 0 5px rgba(0,0,0,1);
+				  background-size: cover;
+				  background-position: center;
+				  -webkit-animation-name: "loops";
+				  -webkit-animation-duration: 20s;
+				  -webkit-animation-iteration-count: infinite;
 				}
-				8% {
-					opacity:1;
-					/*transform:translateY(-30px);
-					animation-timing-function: ease-out;*/
+				@-webkit-keyframes "loops" {
+					0% {
+						background:url(http://d.hiphotos.baidu.com/image/w%3D400/sign=c01e6adca964034f0fcdc3069fc27980/e824b899a9014c08e5e38ca4087b02087af4f4d3.jpg) no-repeat;				
+					}
+					25% {
+						background:url(http://b.hiphotos.baidu.com/image/w%3D400/sign=edee1572e9f81a4c2632edc9e72b6029/30adcbef76094b364d72bceba1cc7cd98c109dd0.jpg) no-repeat;
+					}
+					50% {
+						background:url(http://b.hiphotos.baidu.com/image/w%3D400/sign=937dace2552c11dfded1be2353266255/d8f9d72a6059252d258e7605369b033b5bb5b912.jpg) no-repeat;
+					}
+					75% {
+						background:url(http://g.hiphotos.baidu.com/image/w%3D400/sign=7d37500b8544ebf86d71653fe9f9d736/0df431adcbef76095d61f0972cdda3cc7cd99e4b.jpg) no-repeat;
+					}
+					100% {
+						background:url(http://c.hiphotos.baidu.com/image/w%3D400/sign=cfb239ceb0fb43161a1f7b7a10a54642/3b87e950352ac65ce2e73f76f9f2b21192138ad1.jpg) no-repeat;
+					}
 				}
-				17% {
-					opacity:1;
+		</pre>
+	**无JS更好的版本：**  
+		<PRE>
+				/**HTML**/
+				ul.cb-slideshow>li*6
+				/**CSS**/
+				.cb-slideshow,
+				.cb-slideshow:after{
+					position:fixed;
+					width:100%;
+					height:100%;
+					top:0;
+					left:0;
+					z-index:0;
 				}
-				25% {
+				.cb-slideshow li{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0;
+					left:0;
+					color:transparent;
+		
+					background-size:cover;
+					background-position: center;
+					background-repeat: none;
 					opacity:0;
-					/*transform:translateY(10px);*/
+					z-index:0;
+		
+					-webkit-backface-visibility: hidden;
+					-webkit-animation: loops 36s linear infinite 0s;
 				}
-				100% {
-					opacity: 0;
-					/*transform:translateY(0);*/
+				.cb-slideshow li:nth-child(1){
+					background-image: url(http://a.hiphotos.baidu.com/image/w%3D2048/sign=bae49cc219d5ad6eaaf963eab5f338db/78310a55b319ebc4dfbad19f8026cffc1f1716f1.jpg);
 				}
-			}
-	</PRE>
+				.cb-slideshow li:nth-child(2){
+					background-image: url(http://e.hiphotos.baidu.com/image/w%3D2048/sign=ccbcc20b249759ee4a5067cb86c34216/5ab5c9ea15ce36d3117f253638f33a87e950b1b9.jpg);
+					-webkit-animation-delay: 6s;
+				}
+				.cb-slideshow li:nth-child(3){
+					background-image: url(http://f.hiphotos.baidu.com/image/w%3D2048/sign=856e8c06eb24b899de3c7e385a3e1c95/730e0cf3d7ca7bcba7106129bc096b63f624a849.jpg);
+					-webkit-animation-delay: 12s;
+				}
+				.cb-slideshow li:nth-child(4){
+					background-image: url(http://e.hiphotos.baidu.com/image/w%3D2048/sign=b13bc3ec83cb39dbc1c06056e42e0824/b64543a98226cffc72e818b4bb014a90f703eaf2.jpg);
+					-webkit-animation-delay: 18s;
+				}
+				.cb-slideshow li:nth-child(5){
+					background-image: url(http://d.hiphotos.baidu.com/image/w%3D2048/sign=8850fe144d4a20a4311e3bc7a46a9922/3b87e950352ac65cdb7ec075f9f2b21193138ab9.jpg);
+					-webkit-animation-delay: 24s;
+				}
+				.cb-slideshow li:nth-child(6){
+					background-image: url(http://c.hiphotos.baidu.com/image/w%3D2048/sign=fe5efd301f950a7b753549c43ee963d9/f31fbe096b63f624d9369f058544ebf81a4ca349.jpg);
+					-webkit-animation-delay: 30s;
+				}
+				
+				@-webkit-keyframes "loops" {
+					0% {
+						opacity: 0;
+						/*transform:translateY(2000px);
+						animation-timing-function:ease-in;*/				
+					}
+					8% {
+						opacity:1;
+						/*transform:translateY(-30px);
+						animation-timing-function: ease-out;*/
+					}
+					17% {
+						opacity:1;
+					}
+					25% {
+						opacity:0;
+						/*transform:translateY(10px);*/
+					}
+					100% {
+						opacity: 0;
+						/*transform:translateY(0);*/
+					}
+				}
+		</PRE>
+
 17. 你都使用那些工作来测试代码的性能？
 	
 	- 例如JSPerf (http://jsperf.com/)
