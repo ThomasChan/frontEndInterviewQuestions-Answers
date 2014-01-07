@@ -6,88 +6,88 @@
 --------------------------------------------
 1. 你用Twitter吗？ （在天朝最好问你用微博吗？）  
 **回答：用**
-- 如果用，你都关注那些人？  
+	- 如果用，你都关注那些人？  
 
 2. 你用Github吗？  
 **回答：用**  
-- 如果用，你关注的项目有什么？  
+	- 如果用，你关注的项目有什么？  
 **关注的项目：**  
-     - **facebook/tornado**  
-     - **frontend-dev-bookmarks**
+     - **[facebook/tornado](https://github.com/facebook/tornado)**  
+     - **[frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)**
 
 3. 你关注的博客有那些？  
-- [编程随想的博客](http://program-think.blogspot.com/)
-- [前端开发](http://www.css88.com/)
-- [W3CPlus](http://www.w3cplus.com/)
-- [CSS-Tricks](http://css-tricks.com/)
-- [我喜欢CSS](http://ilikecss.com/blog/)
-- [The CSS Ninja](http://www.thecssninja.com/)
-- [Cat in Chinese](http://chinese.catchen.me/)
-- [伯乐在线](http://blog.jobbole.com/)
-- [Mozilla Hacks](http://hacks.mozilla.org/)
-- [Javascript is Sexy](http://javascriptissexy.com/)
-- [粉丝日志](http://blog.fens.me/#gsc.tab=0)
-- [Flippin' Awesome](http://flippinawesome.org/)
-- [进出自由，我的分享](http://zouyesheng.com/)
-- [Impressive Webs](http://www.impressivewebs.com/)
+	- [编程随想的博客](http://program-think.blogspot.com/)
+	- [前端开发](http://www.css88.com/)
+	- [W3CPlus](http://www.w3cplus.com/)
+	- [CSS-Tricks](http://css-tricks.com/)
+	- [我喜欢CSS](http://ilikecss.com/blog/)
+	- [The CSS Ninja](http://www.thecssninja.com/)
+	- [Cat in Chinese](http://chinese.catchen.me/)
+	- [伯乐在线](http://blog.jobbole.com/)
+	- [Mozilla Hacks](http://hacks.mozilla.org/)
+	- [Javascript is Sexy](http://javascriptissexy.com/)
+	- [粉丝日志](http://blog.fens.me/#gsc.tab=0)
+	- [Flippin' Awesome](http://flippinawesome.org/)
+	- [进出自由，我的分享](http://zouyesheng.com/)
+	- [Impressive Webs](http://www.impressivewebs.com/)
 
 4. 你使用那些版本管理系统，比如Git，SVN等？  
 **回答： git**
 
 5. 你常用的开发环境是怎样的？比如操作系统，文本编辑器，浏览器，及其他工具等。  
- - **操作系统：WIN 7 64BIT**
- - **文本编辑器：sublime text 3**
- - **浏览器：Chrome,firefox,opera next,safari,ie10**
+	 - **操作系统：WIN 7 64BIT**
+	 - **文本编辑器：sublime text 3**
+	 - **浏览器：Chrome,firefox,opera next,safari,ie10**
 
 6. 你能描述一下你制作一个网页的工作流程吗？  
- - **一般情况下：**
-     - **考虑网页结构>  
-		 写HTML>  
-	     写CSS>  
-	     调试>  
- 	     写javascript>  
-	     合并CSS，压缩js**  
- - **使用框架比如angular时：**
-     - **考虑网页结构>  
-	     考虑可能用到的server，factory，controller并创建文件>  
-	     写HTML模板并进行数据绑定>  
-	     写CSS并调试>  
-	     把需要进行DOM操作的部分写成directive>  
-	     进行单元测试>  
-	     合并CSS，压缩js**
+	 - **一般情况下：**
+	     - **考虑网页结构>  
+			 写HTML>  
+		     写CSS>  
+		     调试>  
+	 	     写javascript>  
+		     合并CSS，压缩js**  
+	 - **使用框架比如angular时：**
+	     - **考虑网页结构>  
+		     考虑可能用到的server，factory，controller并创建文件>  
+		     写HTML模板并进行数据绑定>  
+		     写CSS并调试>  
+		     把需要进行DOM操作的部分写成directive>  
+		     进行单元测试>  
+		     合并CSS，压缩js**
 
 7. 你能描述一下渐进增强和优雅降级之间的不同吗?  
-- 如果提到了特性检测，可以加分。  
-**回答：**
-		- **渐进增强是向上‘兼容’，一开始只构建站点或产品的最核心特性功能，然后不断针对各浏览器追加功能和优化。**
-		- **优雅降级是向下兼容，一开始就构建站点或产品的完整功能，然后针对各浏览器进行优化。**
+	- 如果提到了特性检测，可以加分。  
+	**回答：**
+			- **渐进增强是向上‘兼容’，一开始只构建站点或产品的最核心特性功能，然后不断针对各浏览器追加功能和优化。**
+			- **优雅降级是向下兼容，一开始就构建站点或产品的完整功能，然后针对各浏览器进行优化。**
 
 
 9. 请解释一下什么是语义化的HTML。  
-**回答：**
-**语义化的HTML是为了能让人和机器更好的读懂文档。**
+	**回答：**
+	**语义化的HTML是为了能让人和机器更好的读懂文档。**
 
 10. 你更喜欢在哪个浏览器下进行开发？你使用那些开发人员工具？  
-**回答：**
-**在Chrome下，chrome的开发者工具**
+	**回答：**
+	**在Chrome下，chrome的开发者工具**
 
 11. 你如何对网站的文件和资源进行优化？
-
-- 期待的解决方案包括：
-
-	 1.文件合并  
-	 2.文件最小化/文件压缩  
-	 3.使用CDN托管  
-	 4.缓存的使用  
-	 5.其他
+	
+	- 期待的解决方案包括：
+	
+		 1.文件合并  
+		 2.文件最小化/文件压缩  
+		 3.使用CDN托管  
+		 4.缓存的使用  
+		 5.其他
 
 12. 为什么利用多个域名来存储网站资源会更有效？  
-**回答：**  
-	- **CDN缓存更方便**
-	- **突破浏览器并发限制**
-	- **节约cookie带宽**
-	- **节约主域名的连接数，优化页面响应速度**
-	- **防止不必要的安全问题**
+	**回答：**  
+		- **CDN缓存更方便**
+		- **突破浏览器并发限制**
+		- **节约cookie带宽**
+		- **节约主域名的连接数，优化页面响应速度**
+		- **防止不必要的安全问题**
 
 13. 浏览器一次可以从一个域名下做多少资源？  
 **回答：**  
@@ -111,22 +111,22 @@
 		[浏览器允许的并发请求资源数是什么意思？](http://www.zhihu.com/question/20474326)**
 
 14. 请说出三种减低页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）  
-**回答：（参考第10个问题）**  
-	1. **从2-4个域名提供资源服务增加浏览器并行下载数量（参考上一问）**
-	2. **CSS Sprite**
-	3. **代码压缩**
+	**回答：（参考第10个问题）**  
+		1. **从2-4个域名提供资源服务增加浏览器并行下载数量（参考上一问）**
+		2. **CSS Sprite**
+		3. **代码压缩**
 
 15. 如果你接到了一个使用Tab来缩进代码的项目，但是你喜欢空格，你会怎么做？
 
-- 建议这个项目使用像EditorConfig(http://editorconfig.org)之类的规范
-为了保持一致性，转换成项目原有的风格
-直接使用VIM的retab命令
+	- 建议这个项目使用像EditorConfig(http://editorconfig.org)之类的规范
+	为了保持一致性，转换成项目原有的风格
+	直接使用VIM的retab命令
 
 16. 请写一个简单的幻灯效果页面
 
 - 如果不使用JS来完成，可以加分。  
 **无JS超简洁版：** 
-	**<pre>
+	<pre>
 			/**HTML**/
 			div.ani
 			/**css**/
@@ -159,7 +159,7 @@
 					background:url(http://c.hiphotos.baidu.com/image/w%3D400/sign=cfb239ceb0fb43161a1f7b7a10a54642/3b87e950352ac65ce2e73f76f9f2b21192138ad1.jpg) no-repeat;
 				}
 			}
-	</pre>**
+	</pre>
 **无JS更好的版本：**  
 	<PRE>
 			/**HTML**/
@@ -240,10 +240,10 @@
 			}
 	</PRE>
 17. 你都使用那些工作来测试代码的性能？
-
-- 例如JSPerf (http://jsperf.com/)
-- 例如Dromaeo (http://dromaeo.com/)
-- 其它。
+	
+	- 例如JSPerf (http://jsperf.com/)
+	- 例如Dromaeo (http://dromaeo.com/)
+	- 其它。
 
 18. 如果今年你打算熟练掌握一项新技术，那会是什么？
 
@@ -295,7 +295,7 @@ JS相关问题
 
 8. 请解释什么是Javascript的模块模式，并举出实用实例。
 
-- 如果有提到无污染的命名空间，可以考虑加分。
+	- 如果有提到无污染的命名空间，可以考虑加分。
 
 9. 如果你的模块没有自己的命名空间会怎么样？
 
@@ -329,7 +329,7 @@ JS相关问题
 
 21. 你使用过JavaScript的模板系统吗？
 
-- 如有使用做，请谈谈你都使用过那些类似库文件。比如Mustache.js,Handlebars等等。
+	- 如有使用做，请谈谈你都使用过那些类似库文件。比如Mustache.js,Handlebars等等。
 
 22. 请解释变量声明提升。
 
@@ -355,7 +355,7 @@ JS相关问题
 
 33. 如何实现下列代码：
 
-- [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+	- [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 
 34. 描述一种JavaScript memoization(避免重复运算)的策略。
 
@@ -366,11 +366,11 @@ JS相关问题
 37. 什么是"use strict"?使用它的好处和坏处分别是什么？
 
 38. JavaScript内存泄漏。
-
-- 什么是内存泄漏？
-- JavaScript中哪些原因会导致内存泄漏？
-- 有什么样的工具可以检测内存泄漏？
-- 应该怎样去避免内存泄漏？
+	
+	- 什么是内存泄漏？
+	- JavaScript中哪些原因会导致内存泄漏？
+	- 有什么样的工具可以检测内存泄漏？
+	- 应该怎样去避免内存泄漏？
 
 JS代码示例：
 ----------
@@ -441,7 +441,7 @@ jQuery相关问题
 
 6. 请说出你可以传递到jQuery方法的四种不同值。
 
-- 选择器（字符串），HTML（字符串），回调函数，HTML元素，对象，数组，元素数组，jQuery对象等。
+	- 选择器（字符串），HTML（字符串），回调函数，HTML元素，对象，数组，元素数组，jQuery对象等。
 
 7. 什么是效果队列？
 
@@ -453,7 +453,7 @@ jQuery相关问题
 
 11. 请优化下列选择器：
 
-- $(".foo div#bar:eq(0)")
+	- $(".foo div#bar:eq(0)")
 
 12. 'delegate()'和'live()'有什么区别?
 
@@ -474,7 +474,7 @@ CSS相关问题
 
 7. 如何为有功能限制的浏览器提供网页。
 
-- 你会使用那些技术和处理方法。
+	- 你会使用那些技术和处理方法。
 
 8. 如何视觉隐藏网页内容，只让它们在屏幕阅读器中可用。
 
@@ -490,11 +490,11 @@ CSS相关问题
 
 14. 你使用CSS预处理器吗？(SASS,Compass,Stylus,LESS)
 
-- 如果使用，描述你的喜好。
+	- 如果使用，描述你的喜好。
 
 15. 你是否接触过使用非标准字体的设计？
 
-- 字体服务，Google Webfonts, Typekit,等等。
+	- 字体服务，Google Webfonts, Typekit,等等。
 
 16. 请解释浏览器是如何根据CSS选择器选择对应元素的。
 
