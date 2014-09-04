@@ -35,7 +35,7 @@
 **回答： git**
 
 5. 你常用的开发环境是怎样的？比如操作系统，文本编辑器，浏览器，及其他工具等。  
-	 - **操作系统：WIN 7 64BIT**
+	 - **操作系统：Mac**
 	 - **文本编辑器：sublime text 3**
 	 - **浏览器：Chrome,firefox,opera next,safari,ie10**
 
@@ -291,7 +291,7 @@ JS相关问题
 =========
 ---
 1. 你使用过那些Javascript库？  
-**回答：jQuery,AngularJs**
+**回答：jQuery**
 
 2. 你是否研究过你所使用的JS库或者框架的源代码？
 
@@ -306,15 +306,6 @@ JS相关问题
 
 6. 你喜欢的使用闭包的模式是什么？  
 
-**var x = {  
-    name: "x",
-    getName: function(){
-      var that = this;
-      return function(){
-        return that.name;
-      };
-    }
-  }**
 
 7. 请举出一个匿名函数的典型用例？
 
@@ -355,7 +346,7 @@ JS相关问题
 19. 请尽可能详尽的解释AJAX的工作原理。
 
 20. 请解释JSONP的工作原理，以及它为什么不是真正的AJAX。
-
+**JSONP是通过调用时动态创建script标签执行js**
 21. 你使用过JavaScript的模板系统吗？
 
 	- 如有使用做，请谈谈你都使用过那些类似库文件。比如Mustache.js,Handlebars等等。
@@ -367,7 +358,7 @@ JS相关问题
 23. 请描述下事件冒泡机制。
 
 24. "attribute"和"property"的区别是什么？
-
+**property为布尔值**
 25. 为什么扩展JavaScript内置对象是个坏做法？
 
 26. 为什么扩展JavaScript内置对象是个好做法？
@@ -378,7 +369,7 @@ JS相关问题
 **回答：'=='会对数据进行隐式类型转换，'==='不会，无特别情况不推荐使用'=='避免无意的BUG。**
 
 29. 你如何获取浏览器URL中查询字符串中的参数。
-
+**字符串截取**
 30. 请解释一下JavaScript的同源策略。
 
 31. 请解释一下事件代理。
